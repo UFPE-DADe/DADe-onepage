@@ -7,7 +7,7 @@ function Text(props) {
 
   return (
     <div className="text-div">
-      <p>{props.pText}</p>
+      <p style={{color:props.pTextColor}}>{props.pText}</p>
     </div>
   );
 }

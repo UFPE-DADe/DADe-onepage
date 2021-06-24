@@ -22,9 +22,9 @@ function BannerTitleAndButton() {
 
   return (
     <>
-    {bannerTitleAndButton?.map(({texto_roxo, texto_amarelo, link_botao_participe}) => (
+    {bannerTitleAndButton?.map(({texto_branco, texto_amarelo, link_botao_participe}) => (
       <div className="banner-title-and-button">
-        <BannerTitle purple={texto_roxo} yellow={texto_amarelo}/>
+        <BannerTitle purple={texto_branco} yellow={texto_amarelo}/>
         <Button text='Quero participar!' className="participate-button" link={link_botao_participe}/>
       </div>
     ))}

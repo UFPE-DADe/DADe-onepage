@@ -1,0 +1,83 @@
+.realizations-card-div{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.realizations-card-div h2{
+    box-sizing: border-box;
+    font-family: Austral-Sans;
+    font-size: 20px;
+    text-align: center;
+    color: #1D1D1B;
+}
+
+.date-p{
+    font-family: Austral-Sans;
+    color: #893E8F;
+}
+
+.description-p{
+    font-family: Montserrat;
+    color: #646464;
+    font-size: 12px;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+    line-height: 14px;
+}
+
+.date-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 32px;
+    background: rgba(137, 62, 143, 0.2);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 24px; 
+}
+
+.upper-div{
+    height: 30%;
+}
+
+.middle-text{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    height: 70%;
+    margin-top: 35px;
+}
+
+@media (max-width: 1320px) {
+    .middle-text{
+        width: 190px;
+    } 
+        
+}
+
+@media (max-width: 1239px) {
+    .middle-text{
+        width: 16vw;
+    } 
+    .middle-text{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .middle-text{
+        width: 100%;
+    } 
+        
+}

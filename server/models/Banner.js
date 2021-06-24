@@ -8,7 +8,7 @@ const Banner = new keystone.List('Banner', {
 });
 
 Banner.add({
-  texto_roxo: {
+  texto_branco: {
     type: Types.Text,
     required: true,
     initial: true,

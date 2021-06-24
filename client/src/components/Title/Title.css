@@ -2,6 +2,7 @@
     font-family: Austral-Sans;
     font-size: 40px;
     line-height: 42px;
+    font-weight: 400;
 }
 
 @media (max-width: 600px) {

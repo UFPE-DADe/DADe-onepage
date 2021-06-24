@@ -12,3 +12,7 @@ export { default as Paragraph} from './Paragraph';
 export { default as Member} from './Member';
 export { default as SmallText} from './SmallText';
 export { default as ContactLine} from './Contact-Line';
+export { default as RealizationsCard} from './Realizations-Card';
+export { NextArrow, PrevArrow} from './Arrows';
+export {YellowNextArrow, YellowPrevArrow} from './YellowArrows'
+

@@ -1,0 +1,19 @@
+.arrow-img{
+    width: 46.66px;
+    height: 46.67px;
+}
+
+.slick-prev{
+  left: -52px !important;
+}
+
+@media (max-width: 550px) {
+  .slick-prev{
+    left: -25px !important;
+  }
+
+  .arrow-img{
+      width: 20.66px;
+      height: 20.67px;
+  }
+}

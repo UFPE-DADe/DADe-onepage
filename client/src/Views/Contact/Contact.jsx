@@ -68,7 +68,7 @@ import {
               <div className='line-group-div'>
                   <ContactLine lineImg={Instagram} contactInfo='dadeupe' contactLink ={instagram}/>
                   <ContactLine lineImg={Twitter} contactInfo='DADeUFPE' contactLink ={twitter}/>
-                  <ContactLine lineImg={Mail} contactInfo='dadeufpe@gmail.com' contactLink ={email}/>
+                  <ContactLine lineImg={Mail} contactInfo='dadeufpe@gmail.com'/>
                   <ContactLine lineImg={Telegram} contactInfo='Telegram' contactLink ={telegram}/>
                   <ContactLine lineImg={Whatsapp} contactInfo='Whatsapp' contactLink ={whatsapp}/>
               </div>
