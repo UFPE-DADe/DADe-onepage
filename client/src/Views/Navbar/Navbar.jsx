@@ -46,10 +46,10 @@ function Navbar() {
               <LogoDADe width='180px' height='40px'logo={image[0]?.url}/>
             </div>
             <SectionNavbar text='Como trabalhamos' id='#work'/>
-            <SectionNavbar text='Realizações ' id=''/>
+            <SectionNavbar text='Realizações ' id='#realizations'/>
             <SectionNavbar text='Membros' id='#members'/>
             <SectionNavbar text='Contato' id='#contact'/>
-            <SectionNavbar text='FAQ' id=''/>
+            <SectionNavbar text='FAQ' id='#contact'/>
 
             <Button text='Participar' className="participate-button" width='108px' link={link_paticipate}/>
             <div id="menu-hamburguer">
@@ -60,7 +60,7 @@ function Navbar() {
               
               <div className="menu-nav">
                   <a href="#work" onClick={() => SetToggle('')} >Como trabalhamos?</a>
-                  <a href="" onClick={() => SetToggle('')} >Realizações</a>
+                  <a href="#realizations" onClick={() => SetToggle('')} >Realizações</a>
                   <a href="#members" onClick={() => SetToggle('')} >Membros</a>
                   <a href="#contact" onClick={() => SetToggle('')} >Contato</a>
                   <a href={link_paticipate} target="_blank" onClick={() => SetToggle('')} >Participar</a>
