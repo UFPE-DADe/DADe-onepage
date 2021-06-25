@@ -9,7 +9,7 @@ keystone.init({
   static: [path.join(__dirname, './public')],
   'admin path': 'admin',
   'auto update': true,
-  port: process.env.PORT || 3001,
+  port: process.env.PORT,
   mongo: process.env.MONGO_URI,
   auth: true,
   'user model': 'User',
