@@ -123,11 +123,6 @@
         box-sizing: border-box;
         padding: 20px 0px;
     }
-
-    .slick-list{
-        height: 90%;
-        display: flex;
-    }
         
     .member-content p, h4{
         font-family: Montserrat;
