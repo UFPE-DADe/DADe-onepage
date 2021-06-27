@@ -1,0 +1,33 @@
+.question-div{
+    width: 50%;
+}
+
+.acordeon-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+} 
+.MuiCollapse-hidden {
+    visibility: hidden;
+    position: absolute;
+    z-index: 50;
+}
+.MuiCollapse-container{
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+}
+.MuiCollapse-entered {
+    position: absolute;
+    z-index: 500;
+}
+
+@media (max-width: 800px){
+    .acordeon-div{
+        height: fit-content;
+    } 
+    .question-div{
+        width: 100%;
+    }
+}

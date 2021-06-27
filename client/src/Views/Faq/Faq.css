@@ -1,0 +1,22 @@
+.faq-section{
+    width: 100vw;
+}
+
+.faq-content{
+    width: 90vw;
+    margin: auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.faq-paragraph{
+    padding-top: 32px;
+    height: 20%;
+}
+
+.faq-questions-div{
+    height: 80%;
+} 

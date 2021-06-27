@@ -6,7 +6,8 @@ import {
   OurMembers,
   Footer,
   Contact,
-  HowWeWork
+  HowWeWork,
+  Faq,
 } from './Views';
 
 import './App.css';
@@ -21,9 +22,9 @@ function App() {
       <Organization />
       <Realizations/>
       <OurMembers/>
+      <Faq />
       <Contact/>
       <Footer/>
-      
     </>
 
   );

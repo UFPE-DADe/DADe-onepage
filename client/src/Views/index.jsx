@@ -6,3 +6,4 @@ export { default as OurMembers } from './OurMembers';
 export { default as Contact} from './Contact';
 export { default as HowWeWork } from './HowWeWork'
 export { default as Realizations} from './Realizations';
+export {default as Faq } from './Faq';
