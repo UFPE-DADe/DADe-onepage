@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 1288px) {
+    .carousel-father{
+        width: 100%;
+    }
     .card-container{
         width: 14.5vw;
     } 
@@ -80,6 +83,12 @@
 }
 
 @media (max-width: 414px) {
+    .card-container .card-container-slick{
+        width: 100px;
+    } 
+    .card-container{
+        margin: auto;
+    } 
     .realizations-section{
         height: 430px;
     }
@@ -88,7 +97,25 @@
         padding-top: 32px;
     }
     .carousel-father{
-        width: 89%;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .card-container, .card-container-slick{
+        width: 150px;
+    } 
+    .card-container{
+        margin: auto;
+    } 
+    .realizations-section{
+        height: 430px;
+    }
+
+    .realizations-content{
+        padding-top: 32px;
+    }
+    .carousel-father{
         padding-top: 30px;
     }
 }
