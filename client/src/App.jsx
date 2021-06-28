@@ -19,7 +19,6 @@ function App() {
       <Navbar/>
       <Banner/>
       <HowWeWork/>
-      <Organization />
       <Realizations/>
       <OurMembers/>
       <Faq />

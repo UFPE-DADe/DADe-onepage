@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 275px;
-    height: 250px;
+    width: 225px;
+    height: 230px;
     background: #FFFFFF;
     border: 2px solid #1D1D1B;
     box-sizing: border-box;
@@ -29,7 +29,7 @@
 
 .card-div .card-text-div p{
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 14px!important;
     line-height: 20px;
     text-align: center;
     color: #1D1D1B;
@@ -42,7 +42,7 @@
 
 @media (max-width: 1064px) {
     .card-div .card-text-div p{
-        font-size: 14px;
+        font-size: 14px!important;
         line-height: 16px;
     }
 
@@ -65,7 +65,7 @@
 
 @media (max-width: 528px) {
     .card-div .card-text-div p{
-        font-size: 10px;
+        font-size: 10px!important;
         line-height: 12px;
     }
 
@@ -96,7 +96,7 @@
     }
 
     .card-div .card-text-div p{
-        font-size: 9px;
+        font-size: 9px!important;
         line-height: 10px;
     }
 }

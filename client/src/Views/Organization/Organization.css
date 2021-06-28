@@ -3,11 +3,27 @@ html{
 }
 
 .organization{
-    width: 100vw;
+    border-radius: 12px;
+    background-color: white;
+    width: 87%;
+    max-width: 1380px;
 }
 
 .organization-content{
-    width: 90vw;
     max-width: 1440px;
     margin: auto;
+    width: 90%;
+}
+
+@media (max-width: 1200px){
+
+    .organization h1{
+        font-size: 24px !important;
+    }
+    .organization p{
+        font-size: 14px !important;
+    }
+    .organization{
+        max-width: 540px;
+    }
 }

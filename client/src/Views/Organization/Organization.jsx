@@ -14,7 +14,6 @@ function Organization(props) {
         <Paragraph/>
         <CardFather/>
         </div>
-        <FooterNotion footerTitle="Confira no que o D.A. está trabalhando no momento"/>
       </section>
     );
   }

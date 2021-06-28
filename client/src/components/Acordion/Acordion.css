@@ -29,5 +29,6 @@
     } 
     .question-div{
         width: 100%;
+        justify-self: center;
     }
 }

@@ -22,7 +22,7 @@ function Footer(props) {
   return (
     <section className="footer-div">
       <div className='notion-footer-content'>
-      <h1>{props.footerTitle}</h1>
+      <h2>{props.footerTitle}</h2>
       {notion?.map(({_id, link})  => (
       <Button link={link} text="Acesse nosso Notion" className="Notion-Buttom"/>
       ))}
