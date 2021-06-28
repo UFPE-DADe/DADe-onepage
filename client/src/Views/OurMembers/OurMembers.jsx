@@ -34,9 +34,11 @@ function OurMembers() {
     rows: 2,
     className: "center",
     slidesToShow: 1,
-    centerMode: true,
-    centerPadding: "50px",
+    // centerMode: true,
+    // centerPadding: "50px",
     className:"center",
+    nextArrow: <YellowNextArrow className="next-yellow"/>,
+    prevArrow: <YellowPrevArrow className="prev-yellow"/>,
   }
 
     return (
