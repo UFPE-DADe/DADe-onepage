@@ -9,7 +9,7 @@ import {
 function Faq() {
 
     return (
-        <section className="faq-section">
+        <section className="faq-section" id="faq">
             <div className="faq-content">
                 <div className="faq-paragraph">
                     <Title titleText="FAQ"/>

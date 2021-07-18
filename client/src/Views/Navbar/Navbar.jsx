@@ -48,8 +48,9 @@ function Navbar() {
             <SectionNavbar text='Como trabalhamos' id='#work'/>
             <SectionNavbar text='Realizações ' id='#realizations'/>
             <SectionNavbar text='Membros' id='#members'/>
+            <SectionNavbar text='FAQ' id='#faq'/>
             <SectionNavbar text='Contato' id='#contact'/>
-            <SectionNavbar text='FAQ' id='#contact'/>
+            
 
             <Button text='Participar' className="participate-button" width='108px' link={link_paticipate}/>
             <div id="menu-hamburguer">
