@@ -1,4 +1,16 @@
 .participate-button{
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 170px;
+    text-decoration: none;
+}
+
+.want-to-participate-button{
     width: 165px;
     height: 50px;
     background-color: #FFFFFF;
@@ -12,7 +24,16 @@
 
 .participate-button p{
     font-family: Austral-Sans;
-    font-size: 16px;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    color:#893E8F;
+    font-weight: 400;
+}
+
+.want-to-participate-button p{
+    font-family: Austral-Sans;
+    font-size: 20px;
     line-height: 23px;
     text-align: center;
     color:#893E8F;
